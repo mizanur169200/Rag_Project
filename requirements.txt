@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+PyPDF2
+
+langchain
+langchain-core
+langchain-community
+langchain-pinecone
+langchain-google-genai
+
+pinecone
+google.generativeai
+jinja2

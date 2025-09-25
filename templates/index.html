@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat with PDF</title>
+</head>
+<body>
+    <h1>Chat PDF: Local Embeddings + Gemini API</h1>
+
+    <h2>Upload PDF Files</h2>
+    <form action="/upload_pdfs/" enctype="multipart/form-data" method="post">
+        <input type="file" name="files" multiple>
+        <button type="submit">Upload & Process</button>
+    </form>
+
+    <h2>Ask a Question</h2>
+    <form action="/ask_question/" method="post">
+        <input type="text" name="question" placeholder="Enter your question" required>
+        <button type="submit">Ask</button>
+    </form>
+</body>
+</html>
